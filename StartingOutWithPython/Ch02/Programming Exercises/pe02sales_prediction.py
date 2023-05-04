@@ -10,3 +10,5 @@ print('Your profit based on your projected sales is', profit)
 
 # Michael dooing too much
 print(projected_sales + projected_sales)
+
+projected_sales = int(projected_sales)
