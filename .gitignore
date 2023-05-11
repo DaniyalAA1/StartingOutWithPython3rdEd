@@ -152,3 +152,5 @@ cython_debug/
 #.idea/
 
 *.DS_store
+StartingOutWithPython/.DS_Store
+StartingOutWithPython/Ch02/.DS_Store
