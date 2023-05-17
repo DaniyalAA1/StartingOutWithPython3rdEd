@@ -25,3 +25,25 @@ if sales >= 10000:
 3.9 : What statement do you use in Python to write a dual alternative decision structure? To write a dual alternative decision structure, you use the if-else statement
 
 3.10 : When you write an if-else statement, under what circumstances do the statements that appear after the else clause execute? The statements that appear after the else clause execute if the condition is false. 
+
+3.11 : What would the following code display?
+    if 'z' < 'a':
+        print('z is less than a.')
+    else:
+        print('z is not less than a.')
+The following code will display z is not less than a.
+
+3.12 : What would the following code display? 
+s1 = 'New York'
+s2 = 'Boston'
+
+if s1 > s2: 
+print(s2)
+print(s1)
+else:
+print(s1)
+print(s2)
+
+The following code would display 
+Boston 
+New York
