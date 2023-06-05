@@ -58,3 +58,16 @@ Lowercase a through z is represented by numbers 97-112
 digits 0 through 9 are stored, and represented by the numbers 48-57, string 'abc123' would be stored in memory as the codes 97,98,99,49,50,51
 
 A blank spaces is represented by the number 32
+
+## 3.5 Logical Operators
+
+Logical operators: a set of operators, which you can use to create complex Boolean expressions
+
+and operator: connects two Boolean expressions into one compound expression. Both subexpressions must be true for the compound expression to be true
+
+or operator: connects two Boolean expressions into one compound expression. One or both subexpressions must be true for the compound expression to be true. It is only necessary for one of the subexpressions to be true, and it does not matter which. 
+
+not operator: unary operator, works with only one operand. The operand must be a Boolean expression. This operator reverses the truth of its operand. If it is applied to an expression that is true, the operator returns false. If it is applied to an expression that is false, the operator returns true. 
+
+Short-circuit evaluation: performed by and, or operators. If the operator can check one expression, sometimes it doesn't need to check the other expression. In an and operator, if the expression on the left side is false, then the entire statement is automatically false, and it doesnt check the other. In an or operator, if the left side expression is true, the statement is automatically true and it doesn't check the other subexpression
+
