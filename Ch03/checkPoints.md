@@ -59,3 +59,34 @@ else:
             print('Three)
         else:
             print('Unknown)
+3.14: What is a compound Boolean expression? A compound Boolean expression is an expression that contains multiple Boolean expressions. Two expressions can be connected into one using logical operators. 
+
+3.15 State T or F
+F
+T
+F
+F
+T
+T
+T
+T
+F
+T
+
+3.16: a = 2, b = 4, c = 6
+T
+F
+T
+F
+T
+
+3.17: Short circuit evaluations use a method of elimination to save CPU time for the and/or operators. For the and operator, if the expression on the left side is false, the other expression is not checked because teh expression overall is false if one is false. For the or operator, if the expression on the left is true, it doesn't check the other, and the overall expression is automatically true. 
+
+3.18 
+
+
+3.19
+
+3.20: You can assign he value true or false to a bool variable
+
+3.21: a flag variable is a variable that signals when some condition in the program exists

@@ -71,3 +71,8 @@ not operator: unary operator, works with only one operand. The operand must be a
 
 Short-circuit evaluation: performed by and, or operators. If the operator can check one expression, sometimes it doesn't need to check the other expression. In an and operator, if the expression on the left side is false, then the entire statement is automatically false, and it doesnt check the other. In an or operator, if the left side expression is true, the statement is automatically true and it doesn't check the other subexpression
 
+##3.6 Boolean Variables
+
+Bool data type: allows you to create variables that may reference one of two possible values, true or false
+
+flag: a variavle that signals when some condition exists in teh program
